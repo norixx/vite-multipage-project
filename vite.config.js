@@ -67,7 +67,7 @@ export default defineConfig({
     //   }
     // }),
     imagemin({
-      root: 'dist',
+      root: 'src',
       plugins: {
         jpg: imageminMozjpeg(),
         png: imageminPngquant(),
