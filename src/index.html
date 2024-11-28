@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>{{title}} - {{siteName}}</title>
   </head>
   <body>
+
+    {{> _header}}
+
     <div id="app"></div>
     <div>
-      <a href="about.html">About</a>
+      <a href="about.html">About</a><br>
+      <a href="contact.html">Contact</a><br>
+      <a href="test/test.html">Test</a>
     </div>
     <div>
       <img src="./assets/img/sub01/sub01.png" alt="image01" style="width: 50vw">
+    </div>
+    <div>
+      <p class="error">error text</p>
+    </div>
+    <div class="test-bg">
+      bgtest
     </div>
     <script type="module" src="/main.js"></script>
   </body>

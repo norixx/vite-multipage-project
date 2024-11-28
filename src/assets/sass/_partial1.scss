@@ -1,0 +1,13 @@
+@use './variables' as *;
+
+.error {
+  color: $color_primary
+}
+
+.test-bg {
+  background: url(../img/image01.jpg) no-repeat center center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  @apply p-4 mt-10;
+}
